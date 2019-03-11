@@ -10,6 +10,7 @@ declare var Liferay: any;
 @Component({
 	template: `
 	<h1>{{title}}</h1>
+	<h1>{{test}}</h1>
 	<h2>{{hero.name}} details!</h2>
 	<div><label>id: </label>{{hero.id}}</div>
 	<div>
@@ -24,4 +25,5 @@ export class AppComponent {
 		name: 'Windstorm'
 	};
 	title = Liferay.Language.get('javax.portlet.display-name.angulartest');
+	test = Liferay.Language.get('test-key');
 }
