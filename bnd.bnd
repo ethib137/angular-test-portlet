@@ -1,0 +1,5 @@
+Bundle-Name: angular-test-portlet
+Bundle-SymbolicName: angular.test.portlet
+Bundle-Version: 1.0.0
+Export-Package: angular.test.portlet.constants
+Web-ContextPath: /angular-test-portlet
