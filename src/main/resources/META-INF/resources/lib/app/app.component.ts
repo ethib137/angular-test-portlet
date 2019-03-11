@@ -5,6 +5,8 @@ export class Hero {
 	name: string;
 }
 
+declare var Liferay: any;
+
 @Component({
 	template: `
 	<h1>{{title}}</h1>
@@ -21,5 +23,5 @@ export class AppComponent {
 		id: 1,
 		name: 'Windstorm'
 	};
-	title = 'Tour of Heroes';
+	title = Liferay.Language.get('javax.portlet.display-name.angulartest');
 }
